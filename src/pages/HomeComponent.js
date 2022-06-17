@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
-    const toggle= () =>{
+    const toggle = () =>{
         console.log("toggle")
         setIsOpen(!isOpen)
     }
