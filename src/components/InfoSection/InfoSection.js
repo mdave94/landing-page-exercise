@@ -15,7 +15,9 @@ import { InfoContainer,
 import { Button } from '../ButtonElements' 
 
 
-const InfoSection = ({primary,dark,dark2,lightBg,id,imgStart,topLine,lightText,headLine,darkText,description,buttonLabel,img,alt}) => {
+const InfoSection = ({primary,dark,dark2,lightBg,id,imgStart,
+                    topLine,lightText,headLine,darkText,
+                    description,buttonLabel,img,alt}) => {
   return (
     <>
        <InfoContainer lightBg={lightBg} id={id}>
@@ -28,7 +30,7 @@ const InfoSection = ({primary,dark,dark2,lightBg,id,imgStart,topLine,lightText,h
                             <Subtitle dark={darkText}>{description}</Subtitle>
                             <BtnWrap>
                                 <Button to="home"
-                                    smoth={true}
+                                
                                     duration={500}
                                     spy={true}
                                     exact="true"
