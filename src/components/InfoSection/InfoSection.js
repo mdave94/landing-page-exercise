@@ -12,28 +12,40 @@ import { InfoContainer,
         TopLine,
         Subtitle
      } from './InfoElements'
-import { Button } from '../ButtonElements'
+import { Button } from '../ButtonElements' 
 
 
-const InfoSection = () => {
+const InfoSection = ({primary,dark,dark2,lightBg,id,imgStart,topLine,lightText,headLine,darkText,description,buttonLabel,img,alt}) => {
   return (
     <>
-       <InfoContainer >
+       <InfoContainer lightBg={lightBg} id={id}>
             <InfoWrapper>
-                <InfoRow>
+                <InfoRow imgStart={imgStart}>
                     <Column1>
                         <TextWrapper>
-                            <TopLine>Top line text</TopLine>
-                            <Heading>HEDAER</Heading>
-                            <Subtitle>Subtitle</Subtitle>
+                            <TopLine>{topLine}</TopLine>
+                            <Heading lightText={lightText}>{headLine}</Heading>
+                            <Subtitle dark={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home">Button</Button>
+                                <Button to="home"
+                                    smoth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                    primary={primary ? 1 : 0 }
+                                    dark = {dark ? 1 : 0}
+                                    dark2 = {dark2 ? 1 : 0}
+                                
+                                >{buttonLabel}</Button>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2><ImgWrap>
-                            <Img/>
-                        </ImgWrap></Column2>
+                    <Column2>
+                        <ImgWrap>
+                            <Img src={img} alt={alt}/>
+                        </ImgWrap>
+                    </Column2>
                 </InfoRow>
             </InfoWrapper>
        </InfoContainer>
