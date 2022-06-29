@@ -16,37 +16,37 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>About us </FooterLinkTitle>
-                        <FooterLink to="/about">Signin</FooterLink>
-                        <FooterLink to="/services">Details</FooterLink>
-                        <FooterLink to="/about">About</FooterLink>
-                        <FooterLink to="/signin">News</FooterLink>
-                        <FooterLink to="/signin">PArtners</FooterLink>
+                        <FooterLink to="#">Signin</FooterLink>
+                        <FooterLink to="#">Details</FooterLink>
+                        <FooterLink to="#">About</FooterLink>
+                        <FooterLink to="#">News</FooterLink>
+                        <FooterLink to="#">PArtners</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>Contanct  </FooterLinkTitle>
-                        <FooterLink to="/about">Signin2</FooterLink>
-                        <FooterLink to="/services">Details2</FooterLink>
-                        <FooterLink to="/about">About2</FooterLink>
-                        <FooterLink to="/signin">News2</FooterLink>
-                        <FooterLink to="/signin">PArtners2</FooterLink>
+                        <FooterLink to="#">Signin2</FooterLink>
+                        <FooterLink to="/#">Details2</FooterLink>
+                        <FooterLink to="#">About2</FooterLink>
+                        <FooterLink to="#">News2</FooterLink>
+                        <FooterLink to="#">PArtners2</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
-                <FooterLinkItems>
-                    <FooterLinkTitle>About us2 </FooterLinkTitle>
-                        <FooterLink to="/about">Signin</FooterLink>
-                        <FooterLink to="/services">Details</FooterLink>
-                        <FooterLink to="/about">About</FooterLink>
-                        <FooterLink to="/signin">News</FooterLink>
-                        <FooterLink to="/signin">PArtners</FooterLink>
+            <FooterLinkItems>
+                    <FooterLinkTitle>About us </FooterLinkTitle>
+                        <FooterLink to="#">Signin</FooterLink>
+                        <FooterLink to="#">Details</FooterLink>
+                        <FooterLink to="#">About</FooterLink>
+                        <FooterLink to="#">News</FooterLink>
+                        <FooterLink to="#">PArtners</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Contanct2  </FooterLinkTitle>
-                        <FooterLink to="/about">Signin2</FooterLink>
-                        <FooterLink to="/services">Details2</FooterLink>
-                        <FooterLink to="/about">About2</FooterLink>
-                        <FooterLink to="/signin">News2</FooterLink>
-                        <FooterLink to="/signin">PArtners2</FooterLink>
+                    <FooterLinkTitle>Contanct  </FooterLinkTitle>
+                        <FooterLink to="#">Signin2</FooterLink>
+                        <FooterLink to="/#">Details2</FooterLink>
+                        <FooterLink to="#">About2</FooterLink>
+                        <FooterLink to="#">News2</FooterLink>
+                        <FooterLink to="#">PArtners2</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>
