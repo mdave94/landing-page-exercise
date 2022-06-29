@@ -35,7 +35,7 @@ export const homeObjTwo  = {
     
 }
 export const homeObjThree  = {
-    id: 'random',
+    id: 'discover',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
