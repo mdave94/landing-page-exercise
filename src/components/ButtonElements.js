@@ -3,6 +3,7 @@
 
 
  export const Button = styled(Link)`
+    max-width:200px;
    border-radius: 50px;
    background: ${({primary}) => (primary ? '#01BF71': '#010606')} ;
    white-space : nowrap;

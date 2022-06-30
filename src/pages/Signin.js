@@ -1,13 +1,16 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import SignIn from "../components/Signin/Signin";
 
-const SigninPage = () => {
+
+const SignInPage= () => {
   return (
     <>   
-     <h1>ASDASD</h1><h1>ASDASD</h1>
-      <Navbar/>
+      
+      <SignIn/>
+     
     </>
   )
 }
 
-export default SigninPage
+export default SignInPage
