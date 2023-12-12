@@ -28,14 +28,14 @@ const HeroSection = () =>{
                 <VideoBG autoPlay loop muted src={Video} type ='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1> Teszt oldalt megjelenítő szöveg </HeroH1>
+                <HeroH1> Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </HeroH1>
                 <HeroP>
-                    Bekezdéshez szöveg a megjelenítés teszteléséhez. 
+                Cras pharetra varius est. Donec tortor ex, imperdiet eu urna ut, ultricies sodales turpis. Ut pretium sollicitudin scelerisque
 
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button big="true"  fontbig="true" primary ="true" dark="true" to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Részletek {hover ? <ArrowForward/> : <ArrrowRight/>}
+                        Details {hover ? <ArrowForward/> : <ArrrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
